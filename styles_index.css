@@ -139,7 +139,7 @@ footer div ul li a:hover{
 }
 
 /* responsive*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     header{background: red;}
 
     .seccion-1{
