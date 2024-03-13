@@ -1,0 +1,149 @@
+  .form-header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #b2f6ff;
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+
+    width: auto;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  
+  
+  /* ------------- Campos del Formulario ------------- */
+
+  .form-row {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row label {
+    margin-bottom: 4px;
+    text-align:initial;    
+  }
+
+  .form-row input[type="text"] {
+    background-color: #e0e0e0;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .form-row input[type="email"] {
+    background-color: #e0e0e0;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #e0e0e0;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 100px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+    #alerta-1{
+        color: red;
+        font-size: 15px;
+    }
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  
+  
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+    .form-header {
+      padding: 20px;
+    }
+
+    
+    .form-row {
+      flex-direction: row;
+      align-items: flex-start;
+      margin-bottom: 0px;
+    }
+    
+    .form-row label {
+        text-align: left;
+        width: 120px;
+        margin-top: 5px;
+        padding-right: 20px;
+      }
+
+    .form-row input[type="text"] {
+      width: 300px;
+      height: initial;
+    }    
+    .form-row input[type="email"] {
+        width: 300px;
+        height: initial;
+      }
+      .form-row textarea {
+                       
+        width: 300px;
+      }
+    /* ------------- Para Pantallas de más de 700px ------------- */
+    
+    .form-row button {
+        margin-left: 170px;  
+    }
+  }

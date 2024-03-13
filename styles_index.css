@@ -1,0 +1,131 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Neue", cursive;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    background-color: aqua;
+    /* flex-direction: row;*/
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* icono de incio row;*/
+header a i{
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+header a i:hover{
+    color: black;
+}
+
+/* menu de navegación row;*/
+header nav ul{
+    display: flex;
+    gap: 0.5px;
+}
+header nav ul li{
+    border-radius: 4px;
+    padding: 5px 9px;
+}
+
+/* animación pestañas de navegación;*/
+header nav ul li a{
+    color: white;   
+    padding: 15px;
+}
+header nav ul li a:hover{
+    background-color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    color: black;    
+}
+
+/* Información personal */
+.seccion-1{
+    background-color: rgb(250, 237, 118);
+    display: flex;
+    /* flex-direction: row;*/
+    align-items: center;
+    justify-content:center;
+    padding: 20px 50px 0px 50px;
+}
+.seccion-1 .about-me{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+}
+.seccion-1 .about-me:hover{
+    
+    background: white;
+    border-radius: 15px;
+}
+
+/* imagen personal */
+.seccion-1 .about-image{
+    display: flex;
+    padding: 0px 20px 0px 20px;
+    
+}
+.seccion-1 .about-image img{
+    width: 300px;
+}
+
+/* carrusel */
+.seccion-2 {
+    display: flex;
+    background-color: black;
+
+}
+.seccion-2 #trip-dt{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    display: flex;
+    background-color: rgb(101, 242, 247);
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+/* animación pestañas de navegación;*/
+footer div ul.menu-final{
+    display: flex;
+    padding: 0;
+    align-content: center; 
+    
+}
+footer div ul li{
+    border-radius: 4px;
+    padding: 1em;
+}
+/* animación pestañas de navegación;*/
+footer div ul li a{
+    color: black;   
+    padding: 15px;
+}
+footer div ul li a:hover{
+    background-color: black;
+    border-radius: 4px;
+    color: white; 
+    opacity: 0.7;   
+}
+
+/* responsive*/
+@media (max-width: 768px) {
+    header{background: yellow;}
+}

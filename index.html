@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles_index.css">
+    <link rel="stylesheet" type="text/css" href="styles_form.css">
+    <script src="https://kit.fontawesome.com/8d6b79b36f.js" crossorigin="anonymous"></script>
+    <script src="script_index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="img/ico.jpg" type="image/x-icon">
+    <title>Servicios TEC Gonzales </title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a src="index.html"><i class="fa-solid fa-mobile"></i></a>
+            <nav>
+                <ul class="menu-inicio">
+                    <li><a class="prueba" href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Trabajos</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="index.html">Acerca de mi</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="about-me">
+                <h2>Acerca de mí</h2>
+                <p class="parrafo-1">
+                    Bienvenido a mi  página. Aquí aprenderás más sobre mí.
+                </p>
+                <p class="parrafo-2">
+                    Me llamo Arturo, nací en Sullana, Piura, Perú, donde actualmente vivo. Me gusta estudiar y leer libros. Me encanta programar para poder ayudar a las personas en sus proyectos.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="img/profile1.png" alt="imagen personal">
+            </div>
+        </section>
+        <section class="seccion-2">
+            <img src="img/trip_02.jpg" alt="Viaje a Cusco" id="trip-dt">
+        </section>
+        <section class="seccion-3">
+            
+        </section>
+        <section class="form-header">
+            <h1>Conversemos</h1>
+            <p><em>¡Comparte tus inquietudes conmigo!</em></p>
+      
+            <form action="" method="get" class="formulario" id="form">
+              <div class="form-row">
+                  <label for="nomb">Nombres</label>
+                  <input 
+                      id="nomb"
+                      name="nomb"
+                      type="text"
+                      placeholder="Arturo"
+                  />
+                  <p class="alerta-1" id="alerta-1"></p>
+              </div>
+              <div class="form-row">
+                  <label for="apel">Apellidos</label>
+                  <input 
+                      id="apel"
+                      name="apel"
+                      type="text"
+                      placeholder="Gonzales"
+                  />
+              </div>
+              
+              <div class="form-row">
+                  <label for="emai">Email</label>
+                  <input
+                    id="emai"
+                    name="emai"
+                    type="email"
+                    placeholder="user@gmail.com"
+                    required
+                  />
+              </div>
+              <div class="form-row">
+                  <label for="nume">Celular</label>
+                  <input
+                    id="nume"
+                    name="nume"
+                    type="text"
+                    placeholder="000 000 000"
+                  />
+              </div>
+              <div class="form-row">
+                  <label for="mens">Mensaje</label>
+                  <textarea 
+                    id="mens"
+                    name="mens">
+                  </textarea>
+              </div>
+              <div class="form-row">
+                  <button>Enviar</button>
+              </div>
+              
+            </form>
+      
+        </section>
+       
+    </main>
+
+    <footer>
+        <h3>¡Visitanos y contactanos!</h3>
+        <div>
+            <ul class="menu-final">
+                <li><a href="index.html"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="example.html"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="example.html"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="example.html"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="example.html"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script_form.js"></script>
+</body>
+</html>
